@@ -8,13 +8,13 @@ let barStartX, barEndX;
 let font;
 
 function preload(){
-  font = loadFont("/shuttleblock-fonts/shuttle-bold.otf")
+  font = loadFont("shuttle-bold.otf")
 }
 
 function setup() {
   createCanvas(600, 600);
   game = new RhythmGame();
-  cursor("/images/cursor.png", 16, 16);
+  cursor("cursor.png", 16, 16);
   textFont(font)
 }
 
