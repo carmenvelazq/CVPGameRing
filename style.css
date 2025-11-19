@@ -2,7 +2,7 @@ html, body {
     margin: auto;
     text-align: center;
     /*padding: 10px;*/
-    background-image: url(/bg2.avif);
+    background-image: url(bg2.avif);
     background-size: cover;
   }
 canvas {
