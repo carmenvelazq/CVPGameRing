@@ -14,7 +14,7 @@ function preload(){
 function setup() {
   createCanvas(600, 600);
   game = new RhythmGame();
-  cursor("/images/cursor.png", 16, 16);
+  cursor("images/cursor.png", 16, 16);
   textFont(font)
 }
 
