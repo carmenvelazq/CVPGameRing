@@ -8,7 +8,7 @@ let barStartX, barEndX;
 let font;
 
 function preload(){
-  font = loadFont("/shuttleblock-fonts/shuttle-bold.otf")
+  font = loadFont("shuttleblock-fonts/shuttle-bold.otf")
 }
 
 function setup() {
