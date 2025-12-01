@@ -2,7 +2,7 @@ html, body {
     margin: auto;
     text-align: center;
     /*padding: 10px;*/
-    background-image: url(/images/bg3.jpg);
+    background-image: url(images/bg3.jpg);
     background-size: cover;
   }
 .background-images{
