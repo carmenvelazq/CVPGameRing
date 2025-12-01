@@ -19,6 +19,7 @@ html, body {
 .box#one {
   width: 75px;
   height: 75px;
+  filter: blur(1px);
   /* background: red; */
   
   top: 20px;
@@ -28,6 +29,7 @@ html, body {
 .box#two {
   width: 75px;
   height: 75px;
+  filter: blur(2px);
   /* background: orange; */
   
   top: 110px;
@@ -37,6 +39,7 @@ html, body {
 .box#three {
   width: 75px;
   height: 75px;
+  filter: blur(3px);
   /* background: yellow; */
   
   top: 203px;
@@ -53,6 +56,7 @@ html, body {
 .box#five{
   width:75px;
   height:75px;
+  filter: blur(3px);
 
   top: 400px;
   left: 210px;
@@ -68,6 +72,7 @@ html, body {
 .box#seven {
   width: 75px;
   height: 75px;
+  filter: blur(1px);
   /* background: purple; */
   
   top: 600px;
@@ -77,6 +82,7 @@ html, body {
 .box#eight {
   width: 75px;
   height: 75px;
+  filter: blur(1px);
   /* background: blue; */
   
   top: 50px;
@@ -86,6 +92,7 @@ html, body {
 .box#nine {
   width:75px;
   height:75px;
+  filter: blur(2px);
 
   top: 132px;
   right: 305px;
@@ -102,6 +109,7 @@ html, body {
 .box#eleven {
   width:75px;
   height:75px;
+  filter: blur(3px);
 
   top: 305px;
   right: 50px;
@@ -110,6 +118,7 @@ html, body {
 .box#twelve {
   width:75px;
   height:75px;
+  filter: blur(2px);
 
   top: 412px;
   right: 180px;
@@ -118,6 +127,7 @@ html, body {
 .box#thirteen {
   width:75px;
   height:75px;
+  filter: blur(1px);
 
   top: 502px;
   right: 355px;
@@ -138,6 +148,7 @@ p{
 #images{
   margin: auto;
   text-align: center;
+  /* display: inline-block; */
   /* background-color: aquamarine; */
   width: 600px;
   padding: 10px;
@@ -149,7 +160,20 @@ p{
   width: 100px;
   filter: blur(5px);
   text-align: center;
+  /* display: inline-block; */
 }
+
+.img-with-text {
+    text-align: center;
+    width: 100px;
+    display: inline-block;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
 canvas {
   display: block;
   cursor: all-scroll;
