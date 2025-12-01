@@ -19,7 +19,7 @@ html, body {
 .box#one {
   width: 75px;
   height: 75px;
-  background: red;
+  /* background: red; */
   
   top: 20px;
   left: 60px;
@@ -28,7 +28,7 @@ html, body {
 .box#two {
   width: 75px;
   height: 75px;
-  background: orange;
+  /* background: orange; */
   
   top: 110px;
   left: 245px;
@@ -37,7 +37,7 @@ html, body {
 .box#three {
   width: 75px;
   height: 75px;
-  background: yellow;
+  /* background: yellow; */
   
   top: 203px;
   left: 100px;
@@ -68,7 +68,7 @@ html, body {
 .box#seven {
   width: 75px;
   height: 75px;
-  background: purple;
+  /* background: purple; */
   
   top: 600px;
   left: 278px;
@@ -77,7 +77,7 @@ html, body {
 .box#eight {
   width: 75px;
   height: 75px;
-  background: blue;
+  /* background: blue; */
   
   top: 50px;
   right: 100px;
