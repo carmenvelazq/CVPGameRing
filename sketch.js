@@ -372,7 +372,7 @@ class LevelPlayable {
     this.lanes = 4;
     this.activeNotes = [];
     this.noteSize = 20;
-    this.noteSpeed = 2.4;
+    this.noteSpeed = this.spawnInterval;
 
     this.score = 0;
     this.combo = 0;
