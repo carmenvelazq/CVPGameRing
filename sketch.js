@@ -133,7 +133,7 @@ function drawExit(){
 
   // background
   noStroke();
-  fill("#504A4D");
+  fill("#71AEC8");
   rectMode(CORNER)
   rect(0, 0, width, height);
 
@@ -143,7 +143,7 @@ function drawExit(){
   let x = width/2 - w/2;
   let y = height/2 - h/2;
 
-  fill(255);
+  fill("#F1EBE6");
   stroke(80);
   strokeWeight(2);
   rect(x, y, w, h, 25);
@@ -187,7 +187,7 @@ function drawExit(){
   popupButton = { x: bx, y: by, w: bw, h: bh };
 
   stroke(60);
-  fill("#f0e7e2");
+  fill("#E37B6F");
   rect(bx, by+15, bw, bh, 15);
 
   noStroke();
